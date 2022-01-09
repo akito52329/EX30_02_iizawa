@@ -20,6 +20,9 @@ namespace Inheritance
 
             Insect insect = new Insect(new DateTime(2022, 7, 25), "セミ",7,"夏");
             insect.SelfIntroduction();
+
+            Refrigerator refrigerator = new Refrigerator("パナソニック", 10, 60, 60, 180, 30, "黒", 30000);
+            refrigerator.SelfIntroduction();
         }
     }
 }
