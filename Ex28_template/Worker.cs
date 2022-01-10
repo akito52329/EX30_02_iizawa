@@ -18,7 +18,7 @@ namespace Inheritance
         /// <param name="l">寿命</param>
         /// <param name="we">体重</param>
         /// <param name="i">収入</param>
-        public Worker(DateTime bd, string n, int l = 0, float we = 0, int i = 0) : base(bd, n, l, we)
+        public Worker(DateTime bd, string n, int l = 0, string c = null, float we = 0, int i = 0) : base(bd, n, l, c, we)
         {
             this.income = i;
         }

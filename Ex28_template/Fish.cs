@@ -14,7 +14,7 @@ namespace Inheritance
         /// <param name="n">魚の種類</param>
         /// <param name="l">寿命</param>
         /// <param name="e">食べれるかどうか</param>
-        public Fish(DateTime bd, string n, int l = 0, bool e = true) : base(bd, n, l)
+        public Fish(DateTime bd, string n, int l = 0, bool e = true) : base(bd, n,l)
         {
             this.eat = e;
         }

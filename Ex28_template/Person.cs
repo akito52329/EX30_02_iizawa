@@ -10,7 +10,7 @@ namespace Inheritance
     {
         private float weight;
 
-        public Person(DateTime bd, string n, int l = 0,float we = 0) : base(bd, n, l,we)
+        public Person(DateTime bd, string n, int l = 0,string c = null,float we = 0) : base(bd, n, l, c,we)
         {
             this.weight = we;
 

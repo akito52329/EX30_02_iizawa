@@ -21,7 +21,7 @@ namespace Inheritance
         /// <param name="d">重さ</param>
         /// <param name="c">色</param>
         /// <param name="m">金額</param>
-        public Refrigerator(string n, int l = 0, float we = 0, float wi = 0, float h = 0, float d = 0, string c = null,int m = 0) : base(n, l, we, wi, h, d, c)
+        public Refrigerator(string n, int l = 0, string c = null, float we = 0, float wi = 0, float h = 0, float d = 0, int m = 0) : base(n, l, c, we, wi, h, d)
         {
             money = m;
         }
@@ -30,7 +30,7 @@ namespace Inheritance
         {
             
             Console.WriteLine($"{name}の冷蔵庫です。料金は{money}円です。");
-            base.SelfIntroduction();
+            base.Color();
             base.Volume();
         }
     }

@@ -19,7 +19,7 @@ namespace Inheritance
         private float depth;
         private string color;
 
-        public Thing(string n = null, int l = 0, float we = 0, float wi = 0, float h = 0, float d = 0 ,string c = null)
+        public Thing(string n = null, int l = 0,string c = null,float we = 0, float wi = 0, float h = 0, float d = 0)
         {
             name = n;
             lifeSpan = l;
@@ -30,14 +30,14 @@ namespace Inheritance
             color = c;
         }
 
-        public void SelfIntroduction()
+        public void Color()
         {
             Console.WriteLine($"色は{color}です。");
         }
 
         public void Volume()
         {
-            Console.WriteLine($"サイズは{weight * width * height}です。");
+            Console.WriteLine($"体積は{weight * width * height}です。");
         }
 
     }

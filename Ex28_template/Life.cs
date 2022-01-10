@@ -21,7 +21,7 @@ namespace Inheritance
         {
             get { return _name; }
         }
-        public Life(DateTime bd ,string n, int l = 0,float we = 0,float  wi = 0, float h = 0, float d = 0 ):base(n,l,we,wi,h,d)
+        public Life(DateTime bd ,string n, int l = 0, string c = null,float we = 0,float  wi = 0, float h = 0, float d = 0 ):base(n,l,c,we,wi,h,d)
         {
             this._name = n;
             this._birthDay = bd;
