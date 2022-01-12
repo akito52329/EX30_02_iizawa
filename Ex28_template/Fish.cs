@@ -35,7 +35,8 @@ namespace Inheritance
 
         new public void SelfIntroduction()
         {
-            Console.WriteLine($"この魚は、{name}という名前です。{EatCheak(eat)}。寿命は{lifeSpan}年と言われています。");
+            Console.WriteLine($"この魚は、{name}という名前です。{EatCheak(eat)}");
+            LifeSpan();
         }
     }
 }

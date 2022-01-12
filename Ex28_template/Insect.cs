@@ -21,9 +21,11 @@ namespace Inheritance
 
         new public void SelfIntroduction()
         {
-            Console.WriteLine($"この虫は、{name}という名前です。{season}の虫です。寿命は{lifeSpan}日といわれています。" +
-                $"例えば、{_birthDay.Month}月{_birthDay.Day}日に成虫になったら{lifeCalculate(_birthDay,lifeSpan).Month}月{lifeCalculate(_birthDay, lifeSpan).Day}日死にます。");
-        
+            Console.WriteLine($"この虫は、{name}という名前です。{season}の虫です。");
+            LifeSpan();
+            Console.WriteLine($"例えば、{_birthDay.Month}月{_birthDay.Day}日に成虫になったら{LifeCalculate(_birthDay,lifeSpan).Month}月{LifeCalculate(_birthDay, lifeSpan).Day}日死にます。");
+
+
         }
     }
 }

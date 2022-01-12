@@ -14,6 +14,7 @@ namespace Inheritance
         new public void SelfIntroduction()
         {
             Console.WriteLine($"{name}の自動車です。");
+            Color();
         }
     }
 }

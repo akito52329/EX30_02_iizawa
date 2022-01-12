@@ -12,7 +12,7 @@ namespace Inheritance
             Worker worker = new Worker(new DateTime(1998, 12, 25), "B", 92, null,60.1f, 50000);//労働者
             worker.SelfIntroduction();
 
-            Car car = new Car("ホンダ", 10);//車
+            Car car = new Car("ホンダ", 10, "緑");//車
             car.SelfIntroduction();
 
             Fish fish = new Fish(DateTime.Now, "マグロ", 10, true);//魚

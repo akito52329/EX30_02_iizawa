@@ -27,9 +27,14 @@ namespace Inheritance
             this._birthDay = bd;
         }
 
-        protected DateTime lifeCalculate(DateTime dateTime,int lifeSpan)
+        protected DateTime LifeCalculate(DateTime dateTime,int lifeSpan)
         {
             return dateTime.AddDays(lifeSpan);            
+        }
+
+        public void LifeSpan()
+        {
+            Console.WriteLine($"寿命は{lifeSpan}日といわれています。");
         }
     }
 }
