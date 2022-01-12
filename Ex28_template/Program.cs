@@ -6,7 +6,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Student student = new Student(new DateTime(2002, 5, 22), "iizawa", 92, null,53.5f, 10000);//生徒
+            Student student = new Student(new DateTime(2003, 1, 12), "A", 92, null,53.5f, 10000);//生徒
             student.SelfIntroduction();
 
             Worker worker = new Worker(new DateTime(1998, 12, 25), "B", 92, null,60.1f, 50000);//労働者

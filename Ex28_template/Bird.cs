@@ -23,7 +23,8 @@ namespace Inheritance
         new public void SelfIntroduction()
         {
             Console.WriteLine($"この鳥は、{name}という名前です。");
-            base.Habitat();
+            Habitat();
+            Color();
         }
     }
 }

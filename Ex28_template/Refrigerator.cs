@@ -30,8 +30,8 @@ namespace Inheritance
         {
             
             Console.WriteLine($"{name}の冷蔵庫です。料金は{money}円です。");
-            base.Color();
-            base.Volume();
+            Color();
+            Volume();
         }
     }
 }
